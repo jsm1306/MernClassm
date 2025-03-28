@@ -5,7 +5,7 @@ import WorkoutRoutes from "./routes/workouts.js";
 dotenv.config();
 const app = express();
 app.use(express.json());
-app.use("/", WorkoutRoutes);
+app.use("/api/workouts", WorkoutRoutes);
 mongoose
   .connect(process.env.MONG_URI)
   .then(() => {

@@ -18,5 +18,8 @@
     "express": "^4.21.2",
     "mongoose": "^8.12.2",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "ajv": "^7.2.4"
   }
 }
